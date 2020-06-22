@@ -1,10 +1,10 @@
 ##### 常用匹配
 * * *
-**匹配** | **公式** 
---- | --- 
-中文 | [\u4e00-\u9fa5] 
-匹配双字节字符(包括汉字在内) | [^\x00-\xff]
-数字、字母、下划线 | \w
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 * * *
 ```php
 public function aa () {
