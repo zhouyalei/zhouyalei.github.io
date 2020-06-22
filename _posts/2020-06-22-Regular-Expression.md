@@ -1,3 +1,4 @@
+![loading](../../images/reg-exp.jpeg)
 + [语法文档](https://www.runoob.com/regexp/regexp-syntax.html)
 + [线上测试](https://regex101.com/)
 
