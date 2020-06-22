@@ -1,5 +1,5 @@
-+ 语法文档 (https://www.runoob.com/regexp/regexp-syntax.html)
-+ 线上正则测试 (https://regex101.com/)
++ [语法文档](https://www.runoob.com/regexp/regexp-syntax.html)
++ [线上测试](https://regex101.com/)
 
 <span style="text-align:center">##### 常用匹配</span>
 * * *
