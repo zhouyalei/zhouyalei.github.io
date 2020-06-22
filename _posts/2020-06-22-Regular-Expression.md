@@ -10,3 +10,22 @@
 | 匹配双字节字符(包括汉字在内) | [^\x00-\xff]
 
 * * *
+
+```php
+public function emailRegexTest ($email) {
+    $pattern = "/^([\w]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/i";
+    if(preg_match($pattern, $email)) {
+        return true;
+    }else{
+        return false;
+    }
+}
+
+public function groupRegexTest ($string) {
+    if(preg_match("/^(?'group1'[\w]+)-(?'group2'[\w]+)$/", $string,$matchs) > 0) {
+        return $matchs;
+    }else{
+        return null;
+    }
+}
+```
