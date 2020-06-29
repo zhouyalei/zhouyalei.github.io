@@ -42,6 +42,5 @@ public function groupRegexTest ($string) {
 源字符串：*aa\<div>test1\</div>bb\<div>test2\</div>cc*  
 1. 正则：\<div>.*\</div>  
 >     <div>test1</div>bb<div>test2</div>  
- 
 2. 正则：\<div>.*?\</div> 
 >     <div>test1</div>
