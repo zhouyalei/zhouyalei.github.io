@@ -38,9 +38,8 @@ public function groupRegexTest ($string) {
    属于贪婪模式的量词，也叫做**匹配优先**量词，包括:
 >     “{m,n}”、“{m,}”、“?”、“*”和“+”。 
 
-举例： 
-源字符串：*aa\<div>test1\</div>bb\<div>test2\</div>cc*  
-1. 正则：\<div>.*\</div>  
+举例： *aa\<div>test1\</div>bb\<div>test2\</div>cc*  
+1. 正则表达式：\<div>.*\</div>  
 >     <div>test1</div>bb<div>test2</div>  
-2. 正则：\<div>.*?\</div> 
+2. 正则表达式：\<div>.*?\</div> 
 >     <div>test1</div>
