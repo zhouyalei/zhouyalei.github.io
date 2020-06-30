@@ -24,8 +24,10 @@
 | 中文 | [\u4e00-\u9fa5] 
 | 匹配双字节字符(包括汉字在内) | [^\x00-\xff]
 
-* * *
-#### PHP正则实现
+* * *  
+
+### PHP正则实现  
+
 ```php
 public function emailRegexTest ($email) {
     $pattern = "/^([\w]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/i";
