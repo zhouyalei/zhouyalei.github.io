@@ -6,4 +6,5 @@
    >     xdebug.remote_port=9100 (默认是9000会和php-fpm的端口冲突)
 3. #### 配置phpstorm
    ![loading](../../images/xdebug-port.png)
+* * *  
    ![loading](../../images/xdebug-server.png)
